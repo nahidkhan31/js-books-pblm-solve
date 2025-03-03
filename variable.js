@@ -28,3 +28,41 @@ const rice = 153;
 const dal = 261;
 const totalKg = rice + dal;
 console.log(totalKg);
+
+// problem-06
+const totalTaka = 500;
+const expenditurePerUnit = 75;
+// how much time i use it
+const perTime = totalTaka / expenditurePerUnit;
+// how much money extra
+const remainder = totalTaka % expenditurePerUnit;
+console.log(perTime, remainder);
+
+// problem-07
+const x = 8;
+const y = 3;
+const answer = x / y;
+const answer2 = x % y;
+console.log(answer, answer2);
+
+
+// problem-08
+const a = 50;
+const b = 9;
+const ab = a % b;
+console.log(ab);
+
+// problem-09
+const ban = "Bangla";
+const des = "desh";
+const all = ban + des;
+console.log(all);
+
+// problem-10
+const totalRice = 480;
+const perDayEat = 4;
+const howMuchDayIEat = totalRice / perDayEat
+const day = 30;
+const howMuchMonthWeEat = howMuchDayIEat / day;
+console.log(howMuchDayIEat, howMuchMonthWeEat);
+
