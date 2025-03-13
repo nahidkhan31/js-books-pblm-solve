@@ -18,8 +18,8 @@ const totalRemainderMoney = totalMoney % perExpenditure;
 console.log(totalPerExpenditure, totalRemainderMoney);
 
 // problem-04
-const first = "Hello"
-const second = "World"
+const first = "Hello";
+const second = "World";
 const sum = first + second;
 console.log(sum);
 
@@ -45,7 +45,6 @@ const answer = x / y;
 const answer2 = x % y;
 console.log(answer, answer2);
 
-
 // problem-08
 const a = 50;
 const b = 9;
@@ -61,8 +60,9 @@ console.log(all);
 // problem-10
 const totalRice = 480;
 const perDayEat = 4;
-const howMuchDayIEat = totalRice / perDayEat
+const howMuchDayIEat = totalRice / perDayEat;
 const day = 30;
 const howMuchMonthWeEat = howMuchDayIEat / day;
 console.log(howMuchDayIEat, howMuchMonthWeEat);
 
+// abdddd
